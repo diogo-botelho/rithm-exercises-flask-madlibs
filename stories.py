@@ -34,7 +34,6 @@ class Story:
 
         return text
 
-
 # Here's a story to get you started
 
 silly_story = Story(
@@ -50,3 +49,5 @@ excited_story = Story(
     ["noun", "verb"],
     """OMG!! OMG!! I love to {verb} a {noun}!"""
 )
+
+story_options = {"silly-story": silly_story, "excited-story": excited_story}
